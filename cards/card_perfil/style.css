@@ -1,0 +1,82 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.card {
+    width: 280px;
+    padding: 20px;
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    box-shadow: 1px 1px 12px black;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 28px auto;
+}
+
+.image img {
+    width: 100%;
+    height: 100%s;
+}
+
+h1 {
+    color: #C23949;
+    margin: 20px 0 0 0 ;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+span {
+    font-weight: 700;
+}
+
+.media a {
+    width: 40px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.fb {
+    color: #3b5998 ;
+}
+.fb:hover {
+    background: #3b5998;
+    color: white;
+    border-radius: 50%;
+}
+
+.tw {
+    color:#00acee ;
+}
+.tw:hover {
+    background:#00acee ;
+    color: white;
+    border-radius: 50%;
+}
+
+.wp {
+    color:#01924b ;
+}
+.wp:hover {
+    background:#01924b ;
+    color: white;
+    border-radius: 50%;
+}
