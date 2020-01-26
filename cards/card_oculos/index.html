@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Card Oculos Chili Beans - Clone</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="card">
+        <div class="top-section">
+            <img id="image-container" src="img/1.png" alt="">
+            <div class="nav">
+                <img onclick="change_img(this)" src="img/2.png" alt="">
+                <img onclick="change_img(this)" src="img/3.png" alt="">
+                <img onclick="change_img(this)" src="img/4.png" alt="">
+                
+            </div>
+            <div class="price">R$ 169,99</div>
+        </div>
+
+        <div class="product-info">
+            <div class="name">Chilli Beans Azul</div>
+            <div class="dis">LV.AC.0418.0808</div>
+            <a class="btn" href="#"> Add to Cart</a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var container = document.getElementById("image-container")
+        function change_img(image){
+            container.src =  image.src
+        }
+
+    </script>
+
+</body>
+</html>
