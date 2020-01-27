@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Card - visita</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="business-card middle">
+        <div class="front">
+            <h2>Marcos Alexandre</h2>
+            <span>Web Designer</span>
+            <ul class="contact-info">
+                <li>
+                    <i class="fas fa-mobile-alt"></i> +00 9000-0000
+                </li>
+                <li>
+                    <i class="far fa-envelope"></i> marcos.anjospr@hotmail.com
+                </li>
+                <li>
+                    <i class="fas fa-map-pin"></i> Mafra, SC - Brasil
+                </li>
+            </ul>
+        </div>
+        <div class="back">
+            <span>Marcos Alexandre</span>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="https://kit.fontawesome.com/5a9473957e.js" crossorigin="anonymous"></script>
+<!-- animation -->
+<script>
+
+    $(".business-card").click(function () {
+        $(".business-card").toggleClass("business-card-active")
+    })
+
+</script>
+
+</html>
