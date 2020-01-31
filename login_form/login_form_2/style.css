@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+    color: lightskyblue;
+}
+
+.d1 {
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    background: url('https://images.unsplash.com/photo-1562709734-e584493dbdd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1388&q=80') center no-repeat;
+
+}
+
+.login {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    margin: 0;
+    right: 0;
+    background: #fff;
+    height: 100%;
+    z-index: 1;
+}
+
+.login form {
+    margin: 160px 30px;
+}
+
+.login h2 {
+    font-size: 30px;
+    color: lightskyblue;
+}
+
+.login label {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.txtb {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    border: lightskyblue 1px solid;
+
+}
+
+.check {
+    margin: 8px 0;
+}
+
+.btn {
+    display: block;
+    float: right;
+    background: white;
+    border: lightskyblue 1px solid;
+    font-size: 18px;
+    padding: 8px 30px;
+    color: lightskyblue;
+}
